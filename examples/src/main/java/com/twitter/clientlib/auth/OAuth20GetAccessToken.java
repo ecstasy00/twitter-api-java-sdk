@@ -71,7 +71,7 @@ public class OAuth20GetAccessToken {
     TwitterOAuth20Service service = new TwitterOAuth20Service(
         credentials.getTwitterOauth2ClientId(),
         credentials.getTwitterOAuth2ClientSecret(),
-        "http://twitter.com",
+        "https://true-ecstasy.vercel.app/",
         "offline.access tweet.read users.read");
 
     OAuth2AccessToken accessToken = null;
